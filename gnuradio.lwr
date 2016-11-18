@@ -45,8 +45,8 @@ satisfy:
   pacman: gnuradio
   port: gnuradio
   portage: net-wireless/gnuradio
-source: git+https://github.com/gnuradio/gnuradio.git
-gitbranch: master
+source: git+https://github.com/darek-kawamoto/gnuradio.git
+gitbranch: pmt_flow_bug_fixes
 gitargs: --recursive
 vars:
   config_opt: " -DENABLE_DOXYGEN=$builddocs "
